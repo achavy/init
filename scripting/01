@@ -1,0 +1,1 @@
+awk 'BEGIN {FS=":";} {print "User :"$1"\t", "\t| Uid", $3, "\t| path", $6 } ' /etc/passwd
